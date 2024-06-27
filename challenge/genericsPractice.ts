@@ -28,7 +28,7 @@ function count<T>(arr: T[]): number {
 }
 
 function findIndex<T, U extends T>(arr: T[], item: U): number | null {
-  const idx = arr.findIndex((elem) => elem === item);
+  const idx = arr.findIndex((element) => element === item);
   return idx !== -1 ? idx : null;
 }
 
